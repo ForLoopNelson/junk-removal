@@ -65,26 +65,46 @@
 
 /* Main CSS */
 #main {
-  border: 2px solid #818181;
-  background: #125b96;
-  padding: 0 10px;
-}
-h2 {
-  display: flex;
-  align-items: center;
+  border: 2px solid #115614;
+  background: #2e322e;
+  padding: 60px 0px;
+  display: grid;
+  grid-template-columns: 3 1fr;
+  flex-direction: column;
   justify-content: center;
-  padding: 20px 0;
+  align-items: center;
+  margin-bottom: 20px;
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #f1f1f1;
+  font-size: 4rem;
+  border-bottom: 2px solid #115614;
 }
 
 .openbtn {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
   color: white;
-  padding: 10px 15px;
+  background: #817d00;
+  padding-top: 15px;
   border: none;
   cursor: pointer;
-  margin-left: auto;
+  margin-top: 25px;
+}
+
+span {
+  font-size: 1.2rem;
+  color: #f1f1f1;
+  margin-bottom: 15px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 170px;
 }
 
 /* Mobile Views +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
