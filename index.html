@@ -12,9 +12,9 @@
 <body>
   <div id="mySidebar" class="sidebar">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Pricing</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
     <a href="#">Contact</a>
   </div>
   <header id="main">
@@ -22,14 +22,32 @@
     <h1>Hollands Best Junk Removal</h1>
     <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
   </header>
-  <section class="about">
-    <div>
-      <img src="./imgs/icons8-trash-100.png" alt="trash Can Icon">
-      <br>
-      <div class="about-content">About us <br>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, natus saepe accusantium possimus dolorem
-          aperiam nulla rem sed itaque, voluptas doloribus cum ullam modi molestiae, in nihil labore? At, et.</p>
-      </div>
+  <section id="about">
+
+    <img src="./imgs/icons8-trash-100.png" alt="trash Can Icon">
+    <br>
+    <div class="about-content">
+      <h2>About us</h2> <br>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, natus saepe accusantium possimus dolorem
+        aperiam nulla rem sed itaque, voluptas doloribus cum ullam modi molestiae, in nihil labore? At, et.</p>
+
+    </div>
+  </section>
+  <section id="services">
+    <h2>Services</h2>
+    <p class="services-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rem, et reiciendis,
+      necessitatibus deleniti esse
+      enim aspernatur quibusdam nobis, nostrum reprehenderit magnam sint! Perferendis quod doloremque, porro, ab
+      expedita sint ipsam, ex veritatis accusamus reiciendis asperiores rerum minus modi pariatur!</p>
+    <div class="services-content">
+      <br><br>
+      <ul>
+        <li>Trash Clearing</li>
+        <li>Single or multi item pickup</li>
+        <li>Site Clearing</li>
+        <li>Appliance Pickup</li>
+        <li>Estate Cleanout</li>
+      </ul>
     </div>
   </section>
 
