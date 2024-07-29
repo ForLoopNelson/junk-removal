@@ -12,7 +12,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #2e3b46;
+  background-color: #115614;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
@@ -23,7 +23,7 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #f2e4e4;
+  color: #f1f1f1;
   display: block;
   transition: 0.3s;
 }
@@ -65,7 +65,7 @@
 
 /* Main CSS */
 #main {
-  border: 2px solid #115614;
+  border-bottom: 12px solid #115614;
   background: #2e322e;
   padding: 60px 0px;
   display: grid;
@@ -73,7 +73,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
 }
 h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -97,14 +96,63 @@ span {
   margin-bottom: 15px;
 }
 
-.about {
+/* Ensure the section takes the full height of its container */
+#about {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  height: 60vh;
+  text-align: center;
+  background: rgba(250, 240, 28, 0.2);
+  margin-bottom: 15px;
+}
+
+/* Style the image */
+#about img {
+  height: 170px;
+  margin-bottom: 20px; /* Add some space between the image and the content */
+}
+
+/* Center content within the about-content div */
+.about-content {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-img {
-  height: 170px;
+/* Additional styling for the content */
+.about-content h2 {
+  margin: 0;
+  font-size: 4em;
+}
+
+.about-content p {
+  margin: 10px 0 0 0;
+  font-size: 1.8rem;
+  max-width: 600px; /* Adjust as needed for your layout */
+}
+
+#services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* Adjust this value as needed */
+  text-align: center;
+  background: rgba(131, 100, 29, 0.6);
+}
+
+/* Additional styling for the content */
+#services h2 {
+  margin: 0;
+  font-size: 4em;
+}
+
+#services p,
+li {
+  font-size: 1.8rem;
+  max-width: 800px;
 }
 
 /* Mobile Views +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
