@@ -81,6 +81,10 @@ h1 {
   border-bottom: 2px solid #115614;
 }
 
+h2 {
+  border-bottom: 2px solid #115614;
+}
+
 .openbtn {
   color: white;
   background: #817d00;
@@ -102,7 +106,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: 80vh;
   text-align: center;
   background: rgba(250, 240, 28, 0.2);
   margin-bottom: 15px;
@@ -138,7 +142,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 60vh; /* Adjust this value as needed */
+  height: 100vh; /* Adjust this value as needed */
   text-align: center;
   background: rgba(131, 100, 29, 0.6);
 }
@@ -153,6 +157,19 @@ span {
 li {
   font-size: 1.8rem;
   max-width: 800px;
+}
+
+.gallery {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gallery img {
+  height: 370px;
+  object-fit: cover;
+  padding: 0 100px 0 80px;
 }
 
 /* Mobile Views +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
