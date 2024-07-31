@@ -15,7 +15,7 @@
     <a href="#about">About</a>
     <a href="#services">Services</a>
     <a href="#pricing">Pricing</a>
-    <a href="#">Contact</a>
+    <a href="#contact">Contact</a>
   </div>
   <header id="main">
     <span>Call Us : (616)-123-4567</span>
@@ -42,7 +42,6 @@
       enim aspernatur quibusdam nobis, nostrum reprehenderit magnam sint! Perferendis quod doloremque, porro, ab
       expedita sint ipsam, ex veritatis accusamus reiciendis asperiores rerum minus modi pariatur!</p>
     <div class="services-content">
-      <br><br>
       <ul>
         <li>Trash Clearing</li>
         <li>Single or multi item pickup</li>
@@ -51,6 +50,32 @@
         <li>Estate Cleanout</li>
       </ul>
     </div>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+      <p class="hidden">
+        <label>
+          Don’t fill this out if you’re human: <input name="bot-field" />
+        </label>
+      </p>
+      <div class="row">
+        <div class="form-field">
+          <input type="text" name="name" placeholder="Name" />
+        </div>
+        <div class="form-field">
+          <input type="text" name="email" placeholder="Email" />
+        </div>
+        <div class="form-field">
+          <textarea name="message" placeholder="Message" spellcheck="true"></textarea>
+        </div>
+        <div class="form-btn">
+          <input type="submit" value="Send Message" />
+        </div>
+
+      </div>
+
+    </form>
   </section>
 
 </body>
