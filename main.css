@@ -12,7 +12,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #115614;
+  background-color: #45a049;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
@@ -62,7 +62,7 @@
 }
 
 .openbtn:hover {
-  background-color: #444;
+  background-color: #45a049;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -234,6 +234,14 @@ input[type="submit"]:hover {
   padding: 20px;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+
 /* Mobile Views +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -242,5 +250,47 @@ input[type="submit"]:hover {
   }
   .sidebar a {
     font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #main {
+    grid-template-columns: 1fr; /* Ensure grid layout is responsive */
+    padding: 40px; /* Add padding for better spacing */
+  }
+
+  .gallery img {
+    padding: 0 10px; /* Reduce padding for smaller screens */
+  }
+
+  #about {
+    padding-bottom: 60px;
+  }
+
+  #about,
+  #services,
+  #contact {
+    margin-bottom: 20px;
+    font-size: 0.5rem;
+  }
+
+  #contact {
+    width: 100%;
+  }
+  .gallery img {
+    height: 170px;
+  }
+
+  h1,
+  h2 {
+    font-size: 2rem; /* Adjust font sizes for smaller screens */
   }
 }
