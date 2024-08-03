@@ -151,7 +151,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Adjust this value as needed */
+  height: 100vh;
   text-align: center;
   background: rgba(131, 100, 29, 0.6);
 }
@@ -168,6 +168,10 @@ li {
   max-width: 800px;
 }
 
+li {
+  list-style: none;
+}
+
 .gallery {
   margin-top: 25px;
   display: flex;
@@ -176,7 +180,7 @@ li {
 }
 
 .gallery img {
-  height: 370px;
+  height: 250px;
   object-fit: cover;
   padding: 0 100px 0 80px;
 }
