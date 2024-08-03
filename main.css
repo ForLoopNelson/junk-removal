@@ -30,8 +30,10 @@
 /* The sidebar links */
 .sidebar a {
   padding: 8px 8px 8px 32px;
+  font-family: "Arsenal SC", sans-serif;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 40px;
+  margin: 25px 0;
   color: #f1f1f1;
   display: block;
   transition: 0.3s;
@@ -39,7 +41,8 @@
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-  color: #f1f1f1;
+  border: 3px solid #f1f1f1;
+  border-radius: 7px;
 }
 
 /* Position and style the close button (top right corner) */
@@ -73,6 +76,7 @@
 /* End of sidebar Styling ******************************************************************************/
 
 /* Main CSS */
+
 #main {
   border-bottom: 12px solid #115614;
   background: #2e322e;
@@ -84,7 +88,8 @@
   align-items: center;
 }
 h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 10px 4px 2px #111, 2px 1px 2px #ccc;
   color: #f1f1f1;
   font-size: 4rem;
   border-bottom: 2px solid #115614;
@@ -92,6 +97,11 @@ h1 {
 
 h2 {
   border-bottom: 2px solid #115614;
+  font-family: "Arsenal SC", sans-serif;
+}
+
+p {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .openbtn {
