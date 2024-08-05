@@ -18,13 +18,11 @@
   transition: 0.5s;
 }
 
-#sidebar-img {
+#img-icons {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin: 40px 0;
-  height: 200px;
+  height: 100px;
 }
 
 /* The sidebar links */
@@ -285,6 +283,11 @@ footer {
     padding: 0 10px; /* Reduce padding for smaller screens */
   }
 
+  #about img {
+    height: 80px;
+    margin-bottom: 30px;
+  }
+
   #about {
     padding-bottom: 60px;
   }
@@ -303,8 +306,11 @@ footer {
     height: 170px;
   }
 
-  h1,
-  h2 {
+  h1 {
     font-size: 2rem; /* Adjust font sizes for smaller screens */
+  }
+
+  h2 {
+    font-size: 3rem !important;
   }
 }
