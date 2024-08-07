@@ -126,7 +126,6 @@ span {
   height: 80vh;
   text-align: center;
   background: rgba(250, 240, 28, 0.2);
-  margin-bottom: 15px;
 }
 
 /* Style the image */
@@ -295,7 +294,7 @@ footer {
   #about,
   #services,
   #contact {
-    margin-bottom: 20px;
+    margin-bottom: 1px;
     font-size: 0.5rem;
   }
 
