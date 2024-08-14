@@ -161,6 +161,7 @@ span {
   height: 100vh;
   text-align: center;
   background: rgba(131, 100, 29, 0.6);
+  padding-bottom: 40px;
 }
 
 /* Additional styling for the content */
